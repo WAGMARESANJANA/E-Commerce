@@ -33,3 +33,7 @@ This is a fully responsive and interactive **E-Commerce Website** with user auth
   - Email validation
 
 ---
+
+
+https://github.com/user-attachments/assets/cac84cc1-760d-4e26-bee8-d9a758460cf3
+
