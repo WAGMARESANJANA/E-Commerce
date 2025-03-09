@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- 🔹 Navigation Bar -->
+    <header>
+        <h1>E-Commerce</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="#" class="cart-link">🛒 Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <!-- 🔹 Shop Page -->
+    <section class="shop-container">
+        <h2>Shop Our Collection</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://assets.ajio.com/medias/sys_master/root/20230519/uwZa/64677fcf42f9e729d79c7806/-473Wx593H-466170924-lavender-MODEL.jpg" alt="Hoodie">
+                <p>Stylish Hoodie</p>
+                <span>₹2,499</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/copy-of-da-241216-76685-dar-sandy-liang-x-salomon-008-38-r1c-67b78e247c498.jpg?crop=0.665xw:1.00xh;0.0962xw,0&resize=1120:*" alt="Sneakers">
+                <p>Running Sneakers</p>
+                <span>₹4,999</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://contents.mediadecathlon.com/p2481923/5908fc9cb9d340facdd16702bc7aa617/p2481923.jpg?format=auto&quality=70&f=2520x0" alt="Backpack">
+                <p>Travel Backpack</p>
+                <span>₹1,999</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://www.deshidukan.in/cdn/shop/files/Let_sWriteLoveStoryWT_1200x1200.jpg?v=1713869638" alt="T-Shirt">
+                <p>Cotton T-Shirt</p>
+                <span>₹999</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn-media.powerlook.in/catalog/product/3/1/31122550-1.jpg?aio=w-640" alt="Jeans">
+                <p>Denim Jeans</p>
+                <span>₹2,299</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images-cdn.ubuy.co.in/6537dc2e641d3d5e126bc0c3-crysully-men-39-s-winter-leather-jacket.jpg" alt="Jacket">
+                <p>Winter Jacket</p>
+                <span>₹3,999</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🛒 Cart Section (Add this before closing </body>) -->
+    <div id="cart-container" style="display: none;">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: <span id="total-price">₹0</span></p>
+    </div>
+
+
+</body>
+</html>
